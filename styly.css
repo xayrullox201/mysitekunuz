@@ -1,0 +1,1315 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.box-1 {
+  width: 8.33333%;
+}
+
+.box-2 {
+  width: 16.66667%;
+}
+
+.box-3 {
+  width: 25%;
+}
+
+.box-4 {
+  width: 33.33333%;
+}
+
+.box-5 {
+  width: 41.66667%;
+}
+
+.box-6 {
+  width: 50%;
+}
+
+.box-7 {
+  width: 58.33333%;
+}
+
+.box-8 {
+  width: 66.66667%;
+}
+
+.box-9 {
+  width: 75%;
+}
+
+.box-10 {
+  width: 83.33333%;
+}
+
+.box-11 {
+  width: 91.66667%;
+}
+
+.clear {
+  clear: both;
+}
+
+header {
+  width: 100%;
+}
+
+header .conteiner {
+  width: 98%;
+  margin: 0 auto;
+}
+
+header .conteiner img {
+  width: 100%;
+}
+
+header .conteiner .links {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .conteiner .links a img {
+  width: 75px;
+  margin-right: 20px;
+}
+
+header .conteiner .links nav {
+  width: 100%;
+}
+
+header .conteiner .links nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  float: left;
+}
+
+header .conteiner .links nav ul li {
+  padding: 10px 11px;
+  list-style: none;
+}
+
+header .conteiner .links nav ul li a {
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 17px;
+  font-weight: 700;
+}
+
+header .conteiner .links nav ul li a:hover {
+  color: rgba(0, 69, 197, 0.822);
+}
+
+header .conteiner .links nav select {
+  margin-left: 50px;
+  border-radius: 50px;
+  padding: 5px;
+  background-color: #e7e7e7;
+  border: none;
+}
+
+header .conteiner .links nav i {
+  width: 30px;
+  height: 30px;
+  background-color: #e7e7e7;
+  border-radius: 60px;
+  padding: 6px;
+  margin-left: 10px;
+}
+
+header .conteiner .links2 {
+  width: 100%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+header .conteiner .links2 .h3t {
+  background-color: rgba(7, 7, 131, 0.979);
+  color: white;
+  padding: 10px 19px 9px 10px;
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: 0;
+  position: relative;
+}
+
+header .conteiner .links2 .h3t::before {
+  content: '';
+  width: 28px;
+  height: 28px;
+  background-color: rgba(7, 7, 131, 0.979);
+  position: absolute;
+  top: 6px;
+  left: 84px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+header .conteiner .links2 .div1 {
+  width: 100%;
+  background-color: #eff2f8;
+  padding-left: 24px;
+  padding-top: 10px;
+}
+
+header .conteiner .links2 .div1 a {
+  padding: 0px 7px;
+  font-family: none;
+  font-size: 14px;
+  font-weight: 0;
+  text-decoration: none;
+  border-left: 1px solid black;
+  color: #a8a4a4;
+}
+
+header .conteiner .links2 .div1 a:nth-child(1) {
+  border: none;
+}
+
+header .conteiner .links2 .div1 a:hover {
+  color: black;
+}
+
+section {
+  width: 100%;
+  margin-top: 10px;
+}
+
+section .conteiner {
+  width: 98%;
+  margin: 0 auto;
+}
+
+section .conteiner .row {
+  width: 100%;
+}
+
+section .conteiner .row .box-9 {
+  float: left;
+  padding-right: 10px;
+}
+
+section .conteiner .row .box-9 .clear {
+  clear: both;
+}
+
+section .conteiner .row .box-9 .row1 {
+  width: 100%;
+  margin-top: 20px;
+}
+
+section .conteiner .row .box-9 .row1 .box-6 {
+  height: 110px;
+  float: left;
+  margin: 15px auto;
+  background-color: white;
+}
+
+section .conteiner .row .box-9 .row1 .box-6:hover {
+  color: rgba(7, 7, 131, 0.979);
+}
+
+section .conteiner .row .box-9 .row1 .box-6:nth-child(1) {
+  padding-right: 20px;
+}
+
+section .conteiner .row .box-9 .row1 .box-6:nth-child(3) {
+  padding-right: 20px;
+}
+
+section .conteiner .row .box-9 .row1 .box-6 .title {
+  width: 100%;
+  height: 108px;
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+section .conteiner .row .box-9 .row1 .box-6 .title a {
+  font-family: none;
+  font-size: 19px;
+  font-weight: 0;
+}
+
+section .conteiner .row .box-9 .row1 .box-6 .title p {
+  margin-bottom: 5px;
+}
+
+section .conteiner .row .box-9 .row1 .box-6 .title p i {
+  color: gray;
+}
+
+section .conteiner .row .box-9 .row1 .box-6 img {
+  width: 170px;
+  height: 100%;
+  float: left;
+  margin-right: 10px;
+}
+
+section .conteiner .row .box-9 .row1 .clear {
+  clear: both;
+}
+
+section .conteiner .row .box-9 .box-6 {
+  float: left;
+  height: 330px;
+  background-color: #eff2f8;
+}
+
+section .conteiner .row .box-9 .box-6 img {
+  width: 100%;
+  height: 100%;
+}
+
+section .conteiner .row .box-9 .box-6 .title {
+  width: 100%;
+  margin: 0 auto;
+  padding: 25px 50px 25px 25px;
+}
+
+section .conteiner .row .box-9 .box-6 .title p {
+  color: #8e8f90;
+  font-family: none;
+  font-size: 17px;
+  font-weight: 0;
+  float: none;
+}
+
+section .conteiner .row .box-9 .box-6 .title p i {
+  color: #8e8f90;
+  padding-right: 5px;
+}
+
+section .conteiner .row .box-9 .box-6 .title a {
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+section .conteiner .row .box-9 .box-6 .title a:hover {
+  color: rgba(7, 7, 131, 0.979);
+}
+
+section .conteiner .row .box-9 .box-6 .title .p {
+  color: black;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 0;
+  line-height: 28px;
+  margin-top: 15px;
+}
+
+section .conteiner .row .box-9 .box-12 {
+  margin-top: 20px;
+}
+
+section .conteiner .row .box-9 .box-12 .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .conteiner .row .box-9 .box-12 .text p {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+section .conteiner .row .box-9 .box-12 .text p i {
+  color: rgba(7, 7, 131, 0.979);
+  font-size: 19px;
+  margin-right: 10px;
+}
+
+section .conteiner .row .box-9 .box-12 .text a {
+  font-family: "Montserrat";
+  font-size: 17px;
+  font-weight: 600;
+}
+
+section .conteiner .row .box-9 .box-12 .box-4 {
+  height: 350px;
+  float: left;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+
+section .conteiner .row .box-9 .box-12 .box-4:nth-child(2) {
+  padding: 0px;
+}
+
+section .conteiner .row .box-9 .box-12 .box-4:hover {
+  color: rgba(7, 7, 131, 0.979);
+}
+
+section .conteiner .row .box-9 .box-12 .box-4 img {
+  width: 100%;
+  height: 220px;
+}
+
+section .conteiner .row .box-9 .box-12 .box-4 p {
+  color: #8e8f90;
+  margin: 8px 0px;
+}
+
+section .conteiner .row .box-9 .box-12 .box-4 p i {
+  color: #8e8f90;
+  margin-right: 4px;
+}
+
+section .conteiner .row .box-9 .box-12 .box-4 h3 {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 0;
+}
+
+section .conteiner .row .box-3 {
+  float: left;
+}
+
+section .conteiner .row .box-3 .text {
+  width: 96%;
+  margin: 0px 15px;
+}
+
+section .conteiner .row .box-3 .text p {
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-weight: 700;
+}
+
+section .conteiner .row .box-3 .text p i {
+  color: rgba(7, 7, 131, 0.979);
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+section .conteiner .row .box-3 .text .box-12 {
+  margin-top: 17px;
+}
+
+section .conteiner .row .box-3 .text .box-12:hover {
+  color: rgba(7, 7, 131, 0.979);
+}
+
+section .conteiner .row .box-3 .text .box-12 h4 {
+  margin-top: 10px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+section .conteiner .row .box-3 .text .box-12 p {
+  color: #8e8f90;
+  font-family: none;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+section .conteiner .row .box-3 .text .box-12 p i {
+  color: #8e8f90;
+  margin-right: 2px;
+  font-size: 17px;
+}
+
+section .conteiner .row .box-3 .text .link {
+  width: 100%;
+  height: 70px;
+  margin-top: 30px;
+  background-color: #eff2f8;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border-left: 4px solid rgba(0, 69, 197, 0.822);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .conteiner .row .box-3 .text .link h4 {
+  float: left;
+  margin-left: 20px;
+  margin-right: 100px;
+}
+
+section .conteiner .row .box-3 .text .link i {
+  padding-top: 8px;
+  padding-left: 5px;
+  font-size: 24px;
+}
+
+.clear {
+  clear: both;
+}
+
+.secon {
+  width: 100%;
+  margin-top: 40px;
+  padding: 15px;
+}
+
+.secon .text p {
+  font-family: "Montserrat";
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.secon .text p i {
+  color: rgba(7, 7, 131, 0.979);
+  margin-right: 10px;
+}
+
+.secon .box-6 {
+  float: left;
+  margin: 20px 0px;
+}
+
+.secon .box-6 a {
+  text-decoration: none;
+  color: black;
+}
+
+.secon .box-6 a:hover {
+  color: rgba(7, 7, 131, 0.979);
+}
+
+.secon .box-6 a img {
+  width: 100%;
+}
+
+.secon .box-6 a span {
+  background-color: rgba(7, 7, 131, 0.979);
+  padding: 5px 20px;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 0;
+  position: relative;
+  top: -28px;
+}
+
+.secon .box-6 a h3 {
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.secon .box-6 p {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.secon .box-6 .box5 {
+  width: calc(100% / 2 - 10px);
+  height: 300px;
+  float: left;
+  margin-left: 10px;
+}
+
+.secon .box-6 .box5 a {
+  text-decoration: none;
+  color: black;
+}
+
+.secon .box-6 .box5 a img {
+  width: 100%;
+  height: 201px;
+}
+
+.secon .box-6 .box5 a:hover {
+  color: rgba(7, 7, 131, 0.979);
+}
+
+.secon .box-6 .box5 a h3 {
+  font-family: "Montserrat";
+  font-size: 19px;
+  font-weight: 900;
+}
+
+.secon .box-6 .box6 {
+  width: calc(100% / 2 - 10px);
+  height: 340px;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.secon .box-6 .box6 img {
+  width: 100%;
+  height: 200px;
+}
+
+.secon .box-6 .box6 h3 {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.secon1 {
+  background-color: #e7e7e7;
+}
+
+.secon1 .conteiner {
+  width: 98%;
+}
+
+.secon1 .conteiner .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 30px 0px;
+  padding-top: 20px;
+}
+
+.secon1 .conteiner .text p {
+  font-family: "Montserrat";
+  font-size: 19px;
+  font-weight: 900;
+}
+
+.secon1 .conteiner .text p i {
+  font-size: 18px;
+  color: rgba(7, 7, 131, 0.979);
+  margin-right: 10px;
+}
+
+.secon1 .conteiner .text a {
+  text-decoration: none;
+  color: rgba(7, 7, 131, 0.979);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 3px;
+}
+
+.secon1 .conteiner .text a:hover {
+  padding-right: 0px;
+  -webkit-transition: linear .1s;
+  transition: linear .1s;
+}
+
+.secon1 .conteiner .text a p {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.secon1 .conteiner .text a p:hover {
+  margin-right: 3px;
+  -webkit-transition: linear .1s;
+  transition: linear .1s;
+}
+
+.secon1 .conteiner .text a img {
+  width: 24px;
+  height: 16px;
+  margin-left: 8px;
+  margin-top: 2px;
+}
+
+.secon1 .conteiner .text a img:hover {
+  margin-left: 18px;
+  -webkit-transition: linear .3s;
+  transition: linear .3s;
+}
+
+.secon1 .blog {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+
+.secon1 .blog .box3 {
+  width: calc(100% / 4 - 60px);
+  height: 300px;
+  margin-left: 60px;
+  position: relative;
+  background-color: white;
+}
+
+.secon1 .blog .box3 a {
+  text-decoration: none;
+  color: black;
+}
+
+.secon1 .blog .box3 a img {
+  width: 95%;
+  height: 180px;
+  position: absolute;
+  top: -20px;
+  left: -40px;
+  -webkit-box-shadow: 7px 7px 0px rgba(7, 7, 131, 0.979);
+          box-shadow: 7px 7px 0px rgba(7, 7, 131, 0.979);
+}
+
+.secon1 .blog .box3 a span {
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 900;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  position: absolute;
+  top: 70px;
+  left: 160px;
+  color: #8e8f90;
+}
+
+.secon1 .blog .box3 a .text {
+  font-family: "Montserrat";
+  font-size: 17.4px;
+  font-weight: 900;
+  margin-top: 190px;
+  padding: 0px 15px;
+}
+
+.secon1 .blog .box3 a:hover {
+  color: rgba(7, 7, 131, 0.979);
+}
+
+.secon2 {
+  width: 100%;
+}
+
+.secon2 .conteiner {
+  width: 98%;
+}
+
+.secon2 .conteiner .text {
+  margin-top: 40px;
+}
+
+.secon2 .conteiner .text p {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.secon2 .conteiner .text p i {
+  margin-right: 10px;
+  font-size: 18px;
+  color: rgba(7, 7, 131, 0.979);
+}
+
+.secon2 .conteiner .box-6 {
+  padding-right: 10px;
+  margin-top: 60px;
+  float: left;
+}
+
+.secon2 .conteiner .box-6 .box {
+  width: 100%;
+  background-color: #e7e7e7;
+}
+
+.secon2 .conteiner .box-6 .box a {
+  text-decoration: none;
+  color: black;
+}
+
+.secon2 .conteiner .box-6 .box a img {
+  width: 93%;
+  position: relative;
+  top: -25px;
+  -webkit-box-shadow: 15px 15px 0px white;
+          box-shadow: 15px 15px 0px white;
+}
+
+.secon2 .conteiner .box-6 .box a h4 {
+  font-family: "Montserrat";
+  font-size: 19px;
+  font-weight: 600;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.secon2 .conteiner .box-6 .box a:hover {
+  color: rgba(7, 7, 131, 0.979);
+}
+
+.secon2 .conteiner .box-6 .box-12 {
+  height: 110px;
+  margin-bottom: 20px;
+}
+
+.secon2 .conteiner .box-6 .box-12 a {
+  text-decoration: none;
+  color: black;
+}
+
+.secon2 .conteiner .box-6 .box-12 a img {
+  width: 170px;
+  height: 110px;
+  float: left;
+  margin-right: 20px;
+}
+
+.secon2 .conteiner .box-6 .box-12 a h4 {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 14px;
+  padding-top: 8px;
+}
+
+.secon2 .conteiner .box-6 .box-12 a:hover {
+  color: rgba(7, 7, 131, 0.979);
+}
+
+.secon2 .conteiner .box-6 .box-12:nth-child(4) {
+  margin-bottom: 0px;
+}
+
+.secon3 {
+  width: 100%;
+}
+
+.secon3 .conteiner {
+  width: 98%;
+}
+
+.secon3 .conteiner .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 30px 0px;
+}
+
+.secon3 .conteiner .text p {
+  font-family: "Montserrat";
+  font-size: 19px;
+  font-weight: 900;
+}
+
+.secon3 .conteiner .text p i {
+  font-size: 18px;
+  color: rgba(7, 7, 131, 0.979);
+  margin-right: 10px;
+}
+
+.secon3 .conteiner .text a {
+  text-decoration: none;
+  color: rgba(7, 7, 131, 0.979);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 3px;
+}
+
+.secon3 .conteiner .text a:hover {
+  padding-right: 0px;
+  -webkit-transition: linear .1s;
+  transition: linear .1s;
+}
+
+.secon3 .conteiner .text a p {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.secon3 .conteiner .text a p:hover {
+  margin-right: 3px;
+  -webkit-transition: linear .1s;
+  transition: linear .1s;
+}
+
+.secon3 .conteiner .text a img {
+  width: 24px;
+  height: 16px;
+  margin-left: 8px;
+  margin-top: 2px;
+}
+
+.secon3 .conteiner .text a img:hover {
+  margin-left: 18px;
+  -webkit-transition: linear .3s;
+  transition: linear .3s;
+}
+
+.secon3 .conteiner .box-12 .box-4 {
+  height: 540px;
+  padding: 0px 10px;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.secon3 .conteiner .box-12 .box-4:nth-child(1) {
+  padding-left: 0px;
+}
+
+.secon3 .conteiner .box-12 .box-4:nth-child(4) {
+  padding-left: 0px;
+}
+
+.secon3 .conteiner .box-12 .box-4:nth-child(3) {
+  padding-right: 0px;
+}
+
+.secon3 .conteiner .box-12 .box-4:nth-child(6) {
+  padding-right: 0px;
+}
+
+.secon3 .conteiner .box-12 .box-4 a {
+  text-decoration: none;
+  color: black;
+}
+
+.secon3 .conteiner .box-12 .box-4 a .img {
+  width: 100%;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.secon3 .conteiner .box-12 .box-4 a .img img {
+  width: 100%;
+  height: 300px;
+}
+
+.secon3 .conteiner .box-12 .box-4 a .img span {
+  width: 120px;
+  height: 27px;
+  display: block;
+  background-color: #20176a;
+  position: absolute;
+  top: 273px;
+  padding: 5px 15px;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.secon3 .conteiner .box-12 .box-4 a p {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 900;
+  height: 66px;
+  margin: 0px;
+}
+
+.secon3 .conteiner .box-12 .box-4 a:hover {
+  color: rgba(7, 7, 131, 0.979);
+}
+
+.secon3 .conteiner .box-12 .box-4 p {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 20px;
+}
+
+.secon4 .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 30px 0px;
+  margin-bottom: 30px;
+  padding: 0px 18px;
+}
+
+.secon4 .text p {
+  font-family: "Montserrat";
+  font-size: 19px;
+  font-weight: 900;
+}
+
+.secon4 .text p i {
+  font-size: 18px;
+  color: rgba(7, 7, 131, 0.979);
+  margin-right: 10px;
+}
+
+.secon4 .text a {
+  text-decoration: none;
+  color: rgba(7, 7, 131, 0.979);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 3px;
+}
+
+.secon4 .text a:hover {
+  padding-right: 0px;
+  -webkit-transition: linear .1s;
+  transition: linear .1s;
+}
+
+.secon4 .text a p {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.secon4 .text a p:hover {
+  margin-right: 3px;
+  -webkit-transition: linear .1s;
+  transition: linear .1s;
+}
+
+.secon4 .text a img {
+  width: 24px;
+  height: 16px;
+  margin-left: 8px;
+  margin-top: 2px;
+}
+
+.secon4 .text a img:hover {
+  margin-left: 18px;
+  -webkit-transition: linear .3s;
+  transition: linear .3s;
+}
+
+.secon4 .text .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.secon4 .text .title img {
+  width: 90px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.secon4 .text .title p {
+  margin-top: 5px;
+}
+
+.secon4 .text a p {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.secon4 .box-12 {
+  height: 403px;
+  background-color: #e7e7e7;
+  padding: 0px 10px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.secon4 .box-12 .box3 {
+  width: calc(100% / 4 - 26px);
+  height: 350px;
+  margin-top: 35px;
+  color: black;
+  background-color: white;
+}
+
+.secon4 .box-12 .box3:nth-child(5) {
+  margin-right: 0px;
+}
+
+.secon4 .box-12 .box3 img {
+  width: 100%;
+  height: 200px;
+}
+
+.secon4 .box-12 .box3 p {
+  font-family: "Montserrat";
+  font-size: 19px;
+  font-weight: 600;
+  padding: 15px 10px;
+}
+
+.secon4 .box-12 .box3:hover {
+  color: rgba(7, 7, 131, 0.979);
+}
+
+.secon4 .box-12 .i {
+  width: 40px;
+  height: 40px;
+  background-color: #eff2f8;
+  border-radius: 50%;
+  padding: 10px 15px;
+  position: absolute;
+  top: 160px;
+  left: 5px;
+}
+
+.secon4 .box-12 .i1 {
+  width: 40px;
+  height: 40px;
+  background-color: #eff2f8;
+  border-radius: 50%;
+  padding: 10px 15px;
+  position: absolute;
+  top: 160px;
+  left: 1307px;
+}
+
+.secon5 {
+  width: 100%;
+  height: 800px;
+}
+
+.secon5 .conteiner {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.secon5 .conteiner .s {
+  padding-right: 10px;
+  padding-left: 0px;
+}
+
+.secon5 .conteiner .r {
+  padding-left: 10px;
+}
+
+.secon5 .conteiner .box-6 {
+  float: left;
+  margin: 0 auto;
+}
+
+.secon5 .conteiner .box-6 .text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 30px 0px;
+}
+
+.secon5 .conteiner .box-6 .text p {
+  font-family: "Montserrat";
+  font-size: 19px;
+  font-weight: 900;
+}
+
+.secon5 .conteiner .box-6 .text p i {
+  font-size: 18px;
+  color: rgba(7, 7, 131, 0.979);
+  margin-right: 10px;
+}
+
+.secon5 .conteiner .box-6 .text a {
+  text-decoration: none;
+  color: rgba(7, 7, 131, 0.979);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 3px;
+}
+
+.secon5 .conteiner .box-6 .text a:hover {
+  padding-right: 0px;
+  -webkit-transition: linear .1s;
+  transition: linear .1s;
+}
+
+.secon5 .conteiner .box-6 .text a p {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.secon5 .conteiner .box-6 .text a p:hover {
+  margin-right: 3px;
+  -webkit-transition: linear .1s;
+  transition: linear .1s;
+}
+
+.secon5 .conteiner .box-6 .text a img {
+  width: 24px;
+  height: 16px;
+  margin-left: 8px;
+  margin-top: 2px;
+}
+
+.secon5 .conteiner .box-6 .text a img:hover {
+  margin-left: 18px;
+  -webkit-transition: linear .3s;
+  transition: linear .3s;
+}
+
+.secon5 .conteiner .box-6 a .a {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000)), url(../img/Dqig2PGbD82W-wyHD1g0pjq-XCJS5XpF_medium.jpg);
+  background: linear-gradient(180deg, transparent, #000), url(../img/Dqig2PGbD82W-wyHD1g0pjq-XCJS5XpF_medium.jpg);
+  margin-top: 10px;
+}
+
+.secon5 .conteiner .box-6 a .a1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000)), url(../img/C94ZK44RTfjSOtCTo_R4vL8iYUOvG92p_medium.jpg);
+  background: linear-gradient(180deg, transparent, #000), url(../img/C94ZK44RTfjSOtCTo_R4vL8iYUOvG92p_medium.jpg);
+  margin-top: 10px;
+}
+
+.secon5 .conteiner .box-6 a .i {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000)), url(../img/sbCVxjpVJMT7PJTpJ4nR3oNuvC1-TW24_medium.jpg);
+  background: linear-gradient(180deg, transparent, #000), url(../img/sbCVxjpVJMT7PJTpJ4nR3oNuvC1-TW24_medium.jpg);
+  margin-top: 10px;
+}
+
+.secon5 .conteiner .box-6 a .i1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000)), url(../img/13.jpg);
+  background: linear-gradient(180deg, transparent, #000), url(../img/13.jpg);
+  margin-top: 10px;
+}
+
+.secon5 .conteiner .box-6 a .top-img {
+  width: 100%;
+  height: 402px;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000)), url(../img/14.jpg);
+  background: linear-gradient(180deg, transparent, #000), url(../img/14.jpg);
+  position: relative;
+}
+
+.secon5 .conteiner .box-6 a .top-img span {
+  width: 70px;
+  position: absolute;
+  top: 190px;
+  left: 270px;
+  color: white;
+  border: 1px solid white;
+  padding: 15px 15px;
+  border-radius: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#20176a));
+  background: linear-gradient(transparent, #20176a);
+}
+
+.secon5 .conteiner .box-6 a .top-img1 {
+  width: 100%;
+  height: 402px;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000)), url(../img/16.jpg);
+  background: linear-gradient(180deg, transparent, #000), url(../img/16.jpg);
+  position: relative;
+}
+
+.secon5 .conteiner .box-6 a .top-img1 span {
+  width: 70px;
+  position: absolute;
+  top: 190px;
+  left: 270px;
+  color: white;
+  border: 1px solid white;
+  padding: 15px 17px;
+  border-radius: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#20176a));
+  background: linear-gradient(transparent, #20176a);
+}
+
+.secon5 .conteiner .box-6 a .top-img2 {
+  width: 100%;
+  height: 192px;
+  position: relative;
+  background-size: cover;
+}
+
+.secon5 .conteiner .box-6 a .top-img2 span {
+  width: 70px;
+  position: absolute;
+  top: 80px;
+  left: 120px;
+  color: white;
+  border: 1px solid white;
+  padding: 15px 17px;
+  border-radius: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#20176a));
+  background: linear-gradient(transparent, #20176a);
+}
+
+.secon5 .conteiner .box-6 a .top-img3 {
+  width: 100%;
+  height: 192px;
+  position: relative;
+  background-size: cover;
+}
+
+.secon5 .conteiner .box-6 a .top-img3 span {
+  width: 70px;
+  position: absolute;
+  top: 80px;
+  left: 120px;
+  color: white;
+  border: 1px solid white;
+  padding: 15px 17px;
+  border-radius: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#20176a));
+  background: linear-gradient(transparent, #20176a);
+}
+
+footer {
+  height: 55px;
+  background-color: rgba(7, 7, 131, 0.979);
+}
+
+footer .conteiner nav .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .conteiner nav .menu li {
+  padding: 16px 20px;
+  list-style: none;
+}
+
+footer .conteiner nav .menu li a {
+  font-size: 19px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+footer .conteiner .box {
+  width: 100%;
+  background-color: #1c2680;
+}
+
+footer .conteiner .box .text {
+  width: 70%;
+  margin-left: 20px;
+  padding: 30px 0px;
+  color: white;
+  font-weight: 300;
+}
+/*# sourceMappingURL=styly.css.map */
